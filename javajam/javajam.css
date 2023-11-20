@@ -104,6 +104,42 @@ nav ul{
     padding-left: 0;
 }
 
+nav ul {
+
+    /* display: flex;
+
+    flex-direction: column; */
+
+    font-size: 1.25em;
+
+    list-style-type: none;
+
+    margin: 0;
+
+    padding: 0;
+
+}
+
+nav li {
+
+    border-bottom: 1px solid #FEF6C2;
+
+    /* padding: .5em 1em;
+
+    width: 100%; */
+
+}
+
+nav li a {
+
+    display: flex;
+
+    flex-direction: column;
+
+    padding: .5em 1em;
+
+}
+
 footer{
     background-color: #d2B48C;
     font-size: .60em;
@@ -175,6 +211,13 @@ main h2, h3, h4, p, div, ul, dl{
     background-size: 100% 100%;
 }
 
+#herocouch{
+    height: 300px;
+    background-image: url(images/herocouch.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
 table{
     width: 90%;
     border-spacing: 0;
@@ -200,6 +243,21 @@ input, textarea{
     margin-bottom: 0.5em;
 }
 
+.item{
+    background-color: #FAF9F7;
+    padding: 1em;
+    margin: 1em;
+    overflow: auto;
+}
+
+.item img{
+    float: right;
+}
+
+.current{
+    text-decoration: underline dashed #fff 5px;
+}
+
 @media (min-width: 600px){
     form{
         width: 40%;
@@ -217,4 +275,9 @@ input, textarea{
     #herojobs{
         background-image: url(images/herojobs.jpg);
     }
+
+    #flow {
+		display: flex;
+		flex-direction: row;
+	}
 }
