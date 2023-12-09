@@ -29,6 +29,10 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
+figcaption{
+	font-size: 70%
+}
+
 body {
 	line-height: 1;
 }
@@ -2061,7 +2065,7 @@ input, select, textarea {
 		justify-content: center;
 		position: relative;
 		height: 24em;
-		background: url("../../images/HeaderEdited.jpg") center center;
+		background: url("../../images/NewHeader.jpg") center center;
 		background-size: cover;
 		padding: 0;
 	}
